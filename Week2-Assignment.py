@@ -18,3 +18,13 @@ my_list.extend([50, 60, 70])
 
 # Step 5: Remove the last element from my_list.
 my_list.pop()
+
+
+# Step 6: Sort my_list in ascending order.
+my_list.sort()
+
+
+# Step 7: Find and print the index of the value 30 in my_list.
+index_of_30 = my_list.index(30)
+print(f"The index of 30 is: {index_of_30}")
+
